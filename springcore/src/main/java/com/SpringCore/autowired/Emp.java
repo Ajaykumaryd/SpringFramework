@@ -1,10 +1,12 @@
 package com.SpringCore.autowired;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp {
     
 	@Autowired
+	@Qualifier("ad1")
 	private Adress adress;
 
 	public Adress getAdress() {

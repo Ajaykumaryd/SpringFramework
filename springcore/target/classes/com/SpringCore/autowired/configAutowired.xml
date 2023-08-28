@@ -11,13 +11,19 @@
   
   <context:annotation-config/>
 
-<bean class="com.SpringCore.autowired.Adress"  name="adress" >
+<bean class="com.SpringCore.autowired.Adress"  name="ad1" >
   <property name="road" value="lane"></property>
   <property name="city" value="lucknow"></property>
 </bean>
 
+
+<bean class="com.SpringCore.autowired.Adress"  name="ad" >
+  <property name="road" value="lane"></property>
+  <property name="city" value="raebareli"></property>
+</bean>
   
-    <bean class="com.SpringCore.autowired.Emp" name="emp" />
+    <bean class="com.SpringCore.autowired.Emp" name="emp"   
+    />
    
  
    
